@@ -1,0 +1,349 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("./fonts/Vazir.eot");
+    /* IE9 Compat Modes */
+    src: url("./fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+        url("./fonts/Vazir.woff2") format("woff2"),
+        url("./fonts/Vazir.woff") format("woff"),
+        url("./fonts/Vazir.ttf") format("truetype");
+    /* Safari, Android, iOS */
+}
+
+:root{
+    --color-top : rgb(255, 220, 171);
+    --color-bg-sel : #644117;
+}
+
+body {
+    font-family: "Vazir" !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 1.8 !important;
+}
+
+/* Utilities */
+.hover-grow {
+    background-color: var(--color-bg-sel);
+    color: white;
+    transition: all 0.5s;
+}
+
+.hover-grow:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+/* Header */
+.header {
+    transition: all 0.5s;
+    padding: 20px 0;
+}
+
+.header-scrolled {
+    background-color: #fff;
+    box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+}
+
+@media (max-width: 992px) {
+    .header {
+        background-color: #fff;
+    }
+}
+
+
+
+.navbar-nav , .navbar-brand{
+    color: var(--color-bg-sel) !important;
+}
+
+/* Intro */
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: url("./images/pricing/wave\ \(1\).svg") top center no-repeat;
+    background-color: var(--color-top);
+}
+
+
+/* About */
+
+.content {
+    background-color: var(--color-bg-sel);
+    color: white;
+    padding: 40px;
+    border-radius: 0 20px 0 20px;
+}
+
+/* Counts */
+.con{
+    background-color: var(--color-bg-sel);
+}
+.counts i {
+    font-size: 42px;
+    color: var(--color-top);
+}
+
+/* Features */
+.features i {
+    font-size: 44px;
+    color: var(--color-bg-sel);
+}
+
+/* Services */
+
+.services-page{
+    background-image: url(./images/pricing/13.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.services-page div image{
+    width: 20px;
+    height: 20px;
+}
+
+.services .service-box {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.services .service-box .icon {
+    font-size: 36px;
+    padding: 20px;
+    line-height: 0;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.services .service-box .read-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.services .service-box .read-more i {
+    font-size: 18px;
+    line-height: 0;
+    margin-right: 0.4rem;
+    padding: 0;
+}
+
+/* service-box blue */
+.services .service-box.blue {
+    border-bottom: 3px solid #2db6fa;
+}
+
+.services .service-box.blue .icon {
+    color: #2db6fa;
+    background: #dbf3fe;
+}
+
+.services .service-box.blue .read-more {
+    color: #2db6fa;
+}
+
+.services .service-box.blue:hover {
+    background: #2db6fa;
+    color: #fff;
+}
+
+/* service-box orange */
+.services .service-box.orange {
+    border-bottom: 3px solid #f68c09;
+}
+
+.services .service-box.orange .icon {
+    color: #f68c09;
+    background: #fde3c4;
+}
+
+.services .service-box.orange .read-more {
+    color: #f68c09;
+}
+
+.services .service-box.orange:hover {
+    background: #f68c09;
+    color: #fff;
+}
+
+/* service-box green */
+.services .service-box.green {
+    border-bottom: 3px solid #08da4e;
+}
+
+.services .service-box.green .icon {
+    color: #08da4e;
+    background: #cffddf;
+}
+
+.services .service-box.green .read-more {
+    color: #08da4e;
+}
+
+.services .service-box.green:hover {
+    background: #08da4e;
+    color: #fff;
+}
+
+.services .service-box:hover .read-more {
+    color: #fff;
+}
+.services .service-box:hover .icon {
+    background-color: #fff;
+}
+
+/* Pricing */
+.pricing .card {
+    transition: all 0.3s;
+    background-color: var(--color-top);
+}
+.pricing .card:hover {
+    transform: scale(1.1);
+}
+
+.pricing li , h4 , div{
+    color: var(--color-bg-sel);
+}
+.pricing .swiper{
+    height: auto;
+    overflow: visible;
+    padding: 40px 0;
+}
+
+/* Contact */
+.contact .info-box {
+    backdrop-filter: blur(6px);
+    color: var(--color-top);
+    padding: 20px;
+    text-align: center;
+}
+.contact .info-box i {
+    font-size: 38px;
+    line-height: 0;
+    color: var(--color-top);
+}
+.contact .info-box .cellphone {
+    direction: ltr;
+}
+
+.contact .contact-form {
+    padding: 30px;
+    height: 100%;
+}
+
+.img-info{
+    animation: shape 5s linear infinite;
+    width: 350px;
+    height: 350px;
+}
+@keyframes shape{
+    0% , 100%{
+        border-radius: 40% 60% 70% 30% / 40% 40% 60% 50% ;
+    }
+    33%{
+        border-radius: 70% 30% 50% 50% / 30% 30% 70% 70% ;
+    }
+    66%{
+        border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+    }
+}
+/* Footer */
+.footer .social-links a{
+    font-size: 22px;
+    color: var(--color-bg-sel);
+}
+
+.footer hr{
+    width: 70%;
+    height: 5px;
+}
+
+.footer .footer-links i{
+    font-size: 14px;
+}
+
+.footer .footer-links a{
+    color: var(--color-bg-sel);
+    
+}
+
+
+.footer hr{
+    background-color: var(--color-bg-sel);
+}
+
+/* footer-down */
+
+.footer-down{
+    background-image: url(https://img.freepik.com/free-photo/coffee-beans-dark-background-top-view-coffee-concept_1220-6299.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+/* swiper */
+
+.values , .values2{
+    /* background-color: var(--color-top); */
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(90deg  , rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.315)) ,  url(https://img.freepik.com/premium-photo/light-scratched-concrete-wall-texture-with-coffee-beans-corner_124507-10556.jpg?w=2000);
+    border-radius: 10px;
+}
+
+.values::before , .values::after , .values2::after , .values2::before{
+    content: '';
+    position: absolute;
+    margin-right: -60px;
+    margin-top: -60px;
+    width: 100px;
+    height: 100px;
+    background-image: url(./images/values/style\ value.png);
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.values::after .values2::after{
+    left: 60px;
+    margin-top: -40px;
+}
+
+.swiper {
+    width: 100%;
+    height: 400px;
+  }
+
+  .swiper-slide {
+    font-size: 20px;
+    color: #cffddf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+  }
