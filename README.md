@@ -4,7 +4,7 @@ Welcome to the official Cofe Cook repository, the perfect place for coffee lover
 
   Get to know the wonderful design of the site...
 
-  <img src="https://s30.picofile.com/file/8473842476/5.jpg" title="Cofe Cook">
+  <img src="https://s30.picofile.com/file/8473877368/5.jpg" title="Cofe Cook">
 
 ## about us
 
