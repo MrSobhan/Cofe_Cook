@@ -1,4 +1,4 @@
-# Cafe Cook
+# Cofe Cook
 
 Welcome to the official Cofe Cook repository, the perfect place for coffee lovers! Our website is a hub for exploring the world of coffee, from the finest beans to the art of brewing the perfect cup.
 
