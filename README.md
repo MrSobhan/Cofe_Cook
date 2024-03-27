@@ -1,4 +1,4 @@
-# Cofe Cook
+# <img src="https://clipart-library.com/img/1695731.png" width="40" title="Cofe Cook"> Cofe Cook
 
 Welcome to the official Cofe Cook repository, the perfect place for coffee lovers! Our website is a hub for exploring the world of coffee, from the finest beans to the art of brewing the perfect cup.
 
